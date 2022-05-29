@@ -12,6 +12,7 @@ function onSubmit(event) {
 
   if (email === "" || password === "") {
     alert("Все поля должны быть заполнены!");
+    form.reset();
   } else {
     formData.name = email;
     formData.password = password;
